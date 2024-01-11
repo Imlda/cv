@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imelda's CV</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>My Projects</h1>
+    </section>
+
+<!---------- Language(course) ----------->
+    
+    <section class="course">
+        <h1>My Top 3 Coding Languages</h1>
+        <p>Coding language is a set of rules for instructing computers in creating software.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Html/Css</h3>
+                <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are essential for web development, with HTML providing structure and CSS handling presentation for visually appealing websites.</p>
+            </div>
+            <div class="course-col">
+                <h3>Python</h3>
+                <p>Python is a versatile, beginner-friendly language widely used for web development, data analysis, AI, and automation.</p>
+            </div>
+            <div class="course-col">
+                <h3>SQL</h3>
+                <p>SQL (Structured Query Language) is a specialized language for managing relational databases, crucial for tasks like data retrieval, updating, and efficient data management.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Skills ---------->
+    
+<section class="skills">
+    <h1>Past Projects</h1>
+    <p>Projects I have undertaken over the past few semesters.</p>
+        <div class="row">
+            <div class="skills-col">
+                <a href="https://imlda.github.io/kumbang.html/"><img src="images/KumbangWeb.png"></a>
+                <h3>Kumbang Web</h3>
+                <p>It is website clone of the officil kumbang website.</p>
+            </div>
+            <div class="skills-col">
+                <a href="https://imlda.github.io/solar_system.html/"><img src="images/SolarSystem.png"></a>
+                <h3>Solar System</h3>
+                <p>It is a running visual orientation of the solar system.</p>
+            </div>
+            <div class="skills-col">
+                <a href="https://imlda.github.io/responsive_web.html/"><img src="images/ResponsiveWeb.png"></a>
+                <h3>Responsive Web</h3>
+                <p>A website page designed to be responsive in any size of device</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="skills-col">
+                <a href="https://github.com/Imlda/Note"><img src="images/note.jpeg"></a>
+                <h3>Note</h3>
+                <p>A working note page to keep track of your messages</p>
+            </div>
+            <div class="skills-col">
+                <a href="https://github.com/Imlda/insta_clone"><img src="images/Insta.png"></a>
+                <h3>Instagram Clone</h3>
+                <p>A visual clone of the first generation of Instagram.</p>
+            </div>
+            <div class="skills-col">
+                <a href="https://github.com/Imlda/game"><img src="images/quizgame.png"></a>
+                <h3>Quiz Pygame</h3>
+                <p>It is a quiz-type pygame designed as an accumulator of points gotten at the quiz.</p>
+            </div>
+        </div>
+</section>
+
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>A high school sophomore with a keen interest in coding. Contact is available for any ideas of <br> future prpject collaborations.</p>
+    <div class="icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        
+    </div>
+    <a href="#" class="footer-link"><p>made by Imelda Suita <i class="fa fa-heart-o"></i></p></a>
+</section>   
+  
+<!---- JavaScript ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   
